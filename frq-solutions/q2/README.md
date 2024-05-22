@@ -4,4 +4,4 @@
 - keep tracking the score and active team
 - show score descrition
 ## I srtuggle with how to keep active team in memory
-## This question remind me 
+## By doing this question, I improve the skill of using condition statements
