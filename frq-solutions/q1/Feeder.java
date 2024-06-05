@@ -9,6 +9,9 @@ public class Feeder{
     boolean isNormalDay = Math.random()<=0.94;
     int food = (int)(Math.random()*41+10);
     currentFood = (normalDay)?(currentFood - numbirds*food) : (0); 
+    if (currentFood < 0){
+      currentFood = 0;
+      }
   }*/
  
   public void simulateOneDay(int numBirds){
